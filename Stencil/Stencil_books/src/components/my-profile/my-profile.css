@@ -1,0 +1,55 @@
+:host {
+  display: block;
+}
+.profileForm{
+  width: 100%;
+  height: 100%;
+  margin: 75px auto auto auto;
+  background-color: rgb(255, 255, 255);
+}
+form{
+  width: 50%;
+  height: 100%;
+  padding:15px 15px 15px 15px;
+  background-color: white;
+  margin: auto;
+}
+input {
+  width: 100%;
+  height: 40px;
+  margin: 10px auto 25px auto;
+
+}
+textarea{
+  width: 100%;
+  height: 60px;
+}
+label{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(0, 0, 68);
+  font-style: inherit;
+}
+.submit{
+  width: 100%;
+  height: auto;
+  padding:15px 15px 15px 15px;
+  border-radius: 5px;
+  margin: auto;
+  font-weight: 500;
+  text-decoration: none;
+  border-color: rgba(240, 248, 255, 0);
+  color: white;
+  background-color:  rgb(38, 38, 80);
+}
+@media only screen and(max-width:960px) {
+  
+  form{
+    width: 85%;
+    height: 100%;
+    padding:15px 15px 15px 15px;
+    background-color: white;
+    margin: auto;
+  }
+  
+}

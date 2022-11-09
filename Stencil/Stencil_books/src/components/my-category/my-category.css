@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+.category{
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 100px auto auto auto;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+@media only screen and (max-width:960px) {
+  .category{
+    display: block;
+  }
+  
+}

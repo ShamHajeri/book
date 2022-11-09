@@ -1,0 +1,111 @@
+:host {
+  display: block;
+}
+#navbar{
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  border-radius: 25px 0px 0px 0px;
+  background-color: rgb(0, 0, 41);
+  position: fixed;
+  top: 0;
+}
+a{
+  text-decoration: none;
+}
+.main_bar{
+  display: grid;
+  margin: auto;
+  width: 90%;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  padding:  25px auto 25px auto;
+  background: linear-gradient(to bottom, #06073500 0%rgba(11, 2, 138, 0.63)cc 94%);
+}
+.ele{
+   margin: auto;
+}
+.main_content{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+#mobileNavbar{
+  display: none;
+}
+.dropbtn {
+  background-color:rgba(0, 0, 41, 0) ;
+  color: white;
+  font-size: 30px;
+  border: none;
+  margin: auto auto auto 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 15px auto 15px 0px;
+}
+
+.dropdown-content {
+  height: 5000px;
+  display: none;
+  position: absolute;
+  background-color: rgb(5, 5, 59);
+  min-width: 160px;
+  color: white;
+  z-index: 1;
+  margin: 15px auto auto 0px;
+}
+
+.dropdown-content a {
+  height: 45px;
+  width: 150px;
+  color: rgb(255, 253, 253);
+  padding:25px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #070031;}
+
+.logoMobile{
+  width: 100px;
+  height: auto;
+  margin: 5px auto 5px auto;
+  padding: 15px;
+  background-color: white;
+  color: rgb(3, 3, 129);
+  border-radius: 10px 100px 100px 100px;
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-weight: 900;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .mobileStyle{
+      display: grid;
+      grid-template-columns: 0.5fr 3fr 0.5fr;
+      background-color: rgb(26, 26, 56);
+
+  }
+  #mobileNavbar{
+    width: 100%;
+    height:10px;
+    display: unset;
+    margin: auto;
+    top: 0;
+    position: fixed;
+
+  }
+  #navbar{
+      display: none;
+  }
+}
+
+ 
+ 

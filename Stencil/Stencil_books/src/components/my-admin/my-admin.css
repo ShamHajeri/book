@@ -1,0 +1,99 @@
+.forms{
+  width: 200px;
+  height: auto;
+  margin:0px auto auto auto;
+  padding: 10px 10px 10px 10px;
+
+}
+h1{
+  font-size: 22px;
+  text-align: center;
+}
+h4{
+  width:100%;
+  height: auto;
+  margin-bottom:auto auto 0px auto;
+  text-align: center;
+}
+input{
+  width: 100%;
+  height: 30px;
+}
+
+.admin_page{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 95%;
+  margin: 70px auto auto auto;
+  height: auto;
+}
+.cardView{
+  width: 170px;
+  height:300px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgb(10, 1, 65);
+}
+img{
+  width: 95%;
+  height: 200px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 6px;
+
+}
+.proName{
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+color: rgb(10, 1, 65);
+padding: 5px 5px 5px 5px;
+
+}
+.proCat{
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(63, 62, 62);
+  padding: 5px 5px 5px 5px;
+
+  }
+  .submit{
+    width: 100%;
+    height: auto;
+    padding:5px 15px 5px 15px;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: 500;
+    text-decoration: none;
+    border-color: rgba(240, 248, 255, 0);
+    color: white;
+    background-color:  rgb(38, 38, 80);
+  }
+  .render{
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+    border-left: 2px solid;
+     margin: auto auto auto 25px;
+  }
+  @media only screen and (max-width: 960px) {
+    .admin_page{
+      display: block;
+      margin: 70px auto auto auto;
+    }
+    .forms{
+      margin: auto;
+    }
+    input{
+      margin: 10px 10px 10px 10px;
+    }
+    .cardView{
+      margin: auto;
+
+  }
+  .render{
+    width: 90%;
+    height: auto;
+    border: none;
+  }
+}

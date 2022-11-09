@@ -1,0 +1,84 @@
+:host {
+  display: block;
+}
+.edit{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.btng{
+  top: 0;
+  z-index: 1;
+  right: 0;
+  position: fixed;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 22px;
+
+}
+.render_Product{
+  width: 85%;
+  height: auto;
+  display: grid;
+  margin: 65px auto 10px auto ;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  row-gap: 25px;
+  columns: 25px;
+
+}
+.cardView{
+  width: 90%;
+  height:fit-content;
+  border: 2px solid;
+  margin: auto;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  border-color: rgba(10, 1, 65, 0.192);
+}
+img{
+  width: 95%;
+  height: 300px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 6px;
+
+}
+.proName{
+font-size: 16px;
+font-weight: 800;
+text-align: center;
+color: rgb(10, 1, 65);
+padding: 5px 5px 5px 5px;
+
+}
+.proCat{
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(63, 62, 62);
+  padding: 5px 5px 5px 5px;
+
+  }
+
+  .btn{
+    width: 100%;
+    height: auto;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 34);
+    color: rgb(255, 255, 255);
+  }
+ 
+  @media only screen and (max-width: 960px) {
+   
+    .render_Product{
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      margin:25px auto 25px auto;
+    }
+    .cardView{
+      margin: auto;
+  }
+}

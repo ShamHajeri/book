@@ -1,0 +1,69 @@
+:host{
+  font-family: 'Roboto Mono', monospace;
+
+}
+.auth{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 100px auto;
+}
+form{
+  width: fit-content;
+  height: auto;
+  margin: auto;
+  border: 2px solid;
+  text-align: center;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 90);
+}
+a{
+  color: red;
+  cursor: pointer;
+}
+.btn{
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 90);
+  color: white;
+  border-radius: 5px;
+  padding: 15px 15px ;
+  
+}
+.btn:hover{
+  background-color: rgb(108, 108, 158);
+
+
+}
+.form_container_input{
+  width: 250px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px 15px 5px 15px;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 5px;
+  border: 2px rgb(0, 0, 0);
+}
+input{
+  border-radius: 5px;
+  border: 2px rgb(0, 0, 0);
+
+}
+
+.centreDiv{
+  width: fit-content;
+  height: auto;
+  margin: auto;
+
+}
+
+h4{
+  text-align: center;
+}
+
+
+
+
+

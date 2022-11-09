@@ -1,0 +1,52 @@
+.review{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    row-gap: 10px;
+    margin: 70px auto auto auto;
+    column-gap: 10px;
+    color: rgb(0, 0, 68);
+}
+.imgDiv{
+    width: 100%;
+    height: auto;
+    margin: 30px auto auto auto;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 350px;
+    margin: auto;
+}
+.proDetail{
+    text-align: center;
+}
+.content{
+    width: 95%;
+    height: auto;
+    margin:10px auto 10px auto;
+    text-align: center;
+    border-left: 2px solid;
+    color: rgb(0, 0, 68);
+}
+p{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+@media only screen and (max-width: 960px) {
+    .review{
+        display: block;
+      
+    }
+    .content{
+        border-left: none;
+        border-top: 2px solid;
+
+    }
+    
+}
